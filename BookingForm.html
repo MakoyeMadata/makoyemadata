@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <title>Booking Form</title>
+    <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="icon" href="image/favicon-16x16.png" type="image/png">
+            <title>Nova point</title>
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="vendors/linericon/style.css">
+            <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+            <link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+            <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+            <!-- main css -->
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-md-6">
+                    <div class="my_booking_form">
+                        <form action="BookingForm.php" method="POST">
+                            <div class="mt-10 border border-1 border-grey" style="padding: 10px; box-shadow: 0px 2px 2px 2px black; border-radius: 6px;">
+                                <h2><strong>Booking Form</strong></h2>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="firstname" placeholder="Enter Firstname" required>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="lastname" placeholder="Enter lastname" required>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="tel" class="form-control" name="phone" placeholder="Enter phonenumbe" required>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Enter Email" required>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="location" placeholder="Enter Location" required>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row form-group">
+                                    <div class="col-md-11">
+                                        <div class="input-group date" id="datepicker">
+                                            <input type="date" name="date" class="form-control" required>
+                                            <span class="input-group-append">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <input type="hidden" name="service_name"  value="Tax Consultancy">
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-warning">Book Now</button>
+                                    </div>
+                                </div>
+                            </div><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/popper.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+            <script src="js/jquery.ajaxchimp.min.js"></script>
+            <script src="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+            <script src="vendors/nice-select/js/jquery.nice-select.js"></script>
+            <script src="js/mail-script.js"></script>
+            <script src="js/stellar.js"></script>
+            <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+            <script src="vendors/isotope/isotope-min.js"></script>
+            <script src="js/stellar.js"></script>
+            <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+            <!--gmaps Js-->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+            <script src="js/gmaps.min.js"></script>
+            <!-- contact js -->
+            <script src="js/jquery.form.js"></script>
+            <script src="js/jquery.validate.min.js"></script>
+            <script src="js/contact.js"></script>
+            <script src="js/custom.js"></script>
+        
+    </body>
+
+</html>

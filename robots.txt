@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /blog/
+Disallow: /admin/
+Disallow: /royal-Doc/
+Disallow: db_conn.php
+Sitemap: https://www.novapointconsult.com/sitemap.xml
